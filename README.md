@@ -51,3 +51,4 @@ Sistema mobile completo para gestão de transportadoras, desenvolvido em React N
 ---
 ## Protótipo navegável - https://www.figma.com/make/5rIs4jvYUe5VYV3RgTDckQ/Naveg%C3%A1vel-App-Prototype?fullscreen=1&t=ffcFEoU4K5PGriL5-1&preview-route=%2Fauth%2Flogin
 
+
