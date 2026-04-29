@@ -1,80 +1,50 @@
 # 🚛 Trafe GO - Sistema de Gestão de Frotas
 
-![Versão](https://img.shields.io/badge/version-1.0.0-blue)
-![React Native](https://img.shields.io/badge/React_Native-0.72-blue)
-![Expo](https://img.shields.io/badge/Expo-49.0-black)
-![Firebase](https://img.shields.io/badge/Firebase-10.0-orange)
-![Licença](https://img.shields.io/badge/license-MIT-green)
+![React Native](https://img.shields.io/badge/React_Native-0.72.6-blue)
+![Expo](https://img.shields.io/badge/Expo-49.0.15-black)
+![Firebase](https://img.shields.io/badge/Firebase-10.7.0-orange)
+![TypeScript](https://img.shields.io/badge/TypeScript-6.0.3-blue)
 
-## 📱 Sobre o Projeto
-
-O **Trafe GO** é um sistema multiplataforma completo para gestão de uma transportadora, desenvolvido em **React Native** com **Expo** e **Firebase**. O software  foi projetado para otimizar o dia a dia de motoristas e equipes administrativas, oferecendo ferramentas para controle de notas fiscais, despesas, devoluções, chat interno e relatórios financeiros.
-
-### 🎯 Objetivo
-
-Solucionar os desafios da gestão de frotas através de uma plataforma intuitiva que integra motoristas, gerentes e administradores em um único ecossistema, garantindo rastreabilidade, controle financeiro e comunicação eficiente.
-
-### 👥 Público-alvo
-
-| Perfil | Funcionalidades |
-|--------|-----------------|
-| **🚛 Motoristas** | Registro de notas fiscais, despesas e devoluções |
-| **📋 Gerentes** | Aprovação de despesas e notas, acompanhamento de equipe |
-| **👑 Administradores** | Gestão completa do sistema, relatórios e dashboards |
 
 ---
 
-## ✨ Funcionalidades
+<img width="179" height="157" alt="image" src="https://github.com/user-attachments/assets/06126eb4-e11f-4c01-b9b1-b1955a0fa44a" />
 
-| Módulo | Funcionalidades |
-|--------|-----------------|
-| **🔐 Autenticação** | Login com Firebase Auth, cadastro de usuários, recuperação de senha, controle de acesso por cargo |
-| **📄 Notas Fiscais** | Cadastro com foto (Base64), cálculo automático de frete por destino, filtros por data/placa/motorista/status, aprovação/rejeição com justificativa |
-| **💰 Despesas** | Registro com comprovante (Base64), tipos: Combustível, Manutenção, Alimentação, Outros, aprovação com justificativa, gráficos por período |
-| **🔄 Devoluções** | Registro de entregas com foto, dados do recebedor, status Entregue/Não Entregue |
-| **🚗 Placas** | CRUD completo de veículos, ativação/desativação, vínculo com motorista |
-| **💬 Chat** | Comunicação em tempo real entre motoristas e administração, envio de localização |
-| **📊 Relatórios** | Dashboards financeiros, despesas vs fretes, saldo por período, desempenho por motorista |
-| **🔔 Notificações** | Alertas push para aprovação/rejeição de notas e despesas |
 
----
+### 1. IDENTIFICAÇÃO
 
-## 🎨 Identidade Visual
 
-### Cores Oficiais
+O **Trafe Go** em um sistema destinado a uma empresa de logística que apresenta limitações em relação ao processo administrativo utilizado atualmente. 
 
-| Elemento | Cor | Código HEX | Uso |
-|----------|-----|------------|-----|
-| **Primária** | Azul Corporativo | `#0A3D62` | Botões principais, cabeçalhos, links |
-| **Secundária** | Laranja Destaque | `#F39C12` | Badges de pendência, avisos |
-| **Sucesso** | Verde | `#27AE60` | Status aprovado, confirmações |
-| **Erro** | Vermelho | `#E74C3C` | Status rejeitado, exclusões |
-| **Fundo** | Cinza Claro | `#F8F9FA` | Background principal |
-| **Cards** | Branco | `#FFFFFF` | Cards, modais, formulários |
-| **Texto Principal** | Cinza Escuro | `#2C3E50` | Títulos, textos principais |
-| **Texto Secundário** | Cinza Médio | `#7F8C8D` | Descrições, datas, labels |
+### Objetivo
 
-### Tipografia
+O foco central é o desenvolvimento de um software multiplataforma, voltado à gestão operacional de frotas para uma transportadora de eletrodomésticos, e seu controle de pequenos gastos. limita-se à integração de funcionalidades de controle de despesas, gerenciamento de notas fiscais e cálculo de frete automático, no qual é realizado por meio de validações por imagem, comunicação via chat em tempo real e controle de acesso de acordo com o cargo do funcionário
 
-| Estilo | Tamanho | Peso | Uso |
-|--------|---------|------|-----|
-| H1 | 48px | Bold | Título principal |
-| H2 | 32px | Light | Subtítulos |
-| H3 | 26px | Regular | Seções |
-| H4 | 20px | Medium | Cabeçalhos de tela |
-| H5 | 18px | Bold | Títulos de card |
-| H6 | 16px | Bold | Informações destacadas |
-| Corpo | 14px | Regular | Textos gerais |
-| Pequeno | 11px | Regular | Descrições, datas, status |
+## Organização da Equipe
 
-### Ícones
-
-- **Biblioteca:** `@expo/vector-icons` (Ionicons)
-- **Estilo:** Outline para itens inativos, Solid para ativos
-- **Tamanho padrão:** 24px
+| Integrante | Responsabilidades |
+|------|-------------------|
+| **Guilherme Neves** | Desenvolvimento de funcionalidades, implementação da interface do usuário, estilização do projeto, integração com Firebase, criação das telas principais (Notas, Despesas, Devolução, Placas) |
+| **Diego Vinicius** | Integração do projeto com o banco de dados (Firestore), desenvolvimento da pesquisa de campo, criação de funcionalidades do sistema (Chat, Relatórios), documentação técnica |
+| **Gabriel Pinheiro** | Desenvolvimento da estrutura do banco de dados, auxílio na pesquisa de campo, desenvolvimento do artigo acadêmico, documentação do projeto |
 
 ---
 
-## 🏗️ Arquitetura do Projeto
+###  Data de Criação do Projeto
 
-Link do Protótipo Navegável - [https://www.figma.com/make/5rIs4jvYUe5VYV3RgTDckQ/Naveg%C3%A1vel-App-Prototype?p=f&t=uFEbO6wJORXGdkWm-0](https://sl1nk.com/oaa8t8h)
+| Marco | Data |
+|-------|------|
+| **Início do Projeto** | Fevereiro de 2025 |
+| **Prototipagem (Figma)** | Março de 2025 |
+| **Início do Desenvolvimento** | Março de 2025 |
+| **MVP (Mínimo Produto Viável)** | Abril de 2025 |
+| **Testes e Validação** | Maio de 2025 |
+| **Entrega Final** | Junho de 2025 |
+
+---
+
+## ✨ Funcionalidades Principais
+
+Protótipo Navegável - 
+(https://sl1nk.com/srkyxxk)
+
