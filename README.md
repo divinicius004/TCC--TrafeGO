@@ -76,3 +76,5 @@ Solucionar os desafios da gestão de frotas através de uma plataforma intuitiva
 ---
 
 ## 🏗️ Arquitetura do Projeto
+
+#Link do Protótipo Navegável - [https://www.figma.com/make/5rIs4jvYUe5VYV3RgTDckQ/Naveg%C3%A1vel-App-Prototype?p=f&t=uFEbO6wJORXGdkWm-0](https://sl1nk.com/oaa8t8h)
