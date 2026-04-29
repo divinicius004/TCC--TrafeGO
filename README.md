@@ -1,54 +1,78 @@
-## Trafe GO - Sistema de Gestão de Frotas
+# 🚛 Trafe GO - Sistema de Gestão de Frotas
 
-**Sobre o Projeto**
-</br>
+![Versão](https://img.shields.io/badge/version-1.0.0-blue)
+![React Native](https://img.shields.io/badge/React_Native-0.72-blue)
+![Expo](https://img.shields.io/badge/Expo-49.0-black)
+![Firebase](https://img.shields.io/badge/Firebase-10.0-orange)
+![Licença](https://img.shields.io/badge/license-MIT-green)
 
-Sistema mobile completo para gestão de transportadoras, desenvolvido em React Native com Firebase. Permite controle de notas fiscais, programações, despesas, relatórios financeiros, chat interno e rastreamento em tempo real.
+## 📱 Sobre o Projeto
+
+O **Trafe GO** é um sistema mobile completo para gestão de transportadoras, desenvolvido em **React Native** com **Expo** e **Firebase**. O aplicativo foi projetado para otimizar o dia a dia de motoristas e equipes administrativas, oferecendo ferramentas para controle de notas fiscais, despesas, devoluções, chat interno e relatórios financeiros.
+
+### 🎯 Objetivo
+
+Solucionar os desafios da gestão de frotas através de uma plataforma intuitiva que integra motoristas, gerentes e administradores em um único ecossistema, garantindo rastreabilidade, controle financeiro e comunicação eficiente.
+
+### 👥 Público-alvo
+
+| Perfil | Funcionalidades |
+|--------|-----------------|
+| **🚛 Motoristas** | Registro de notas fiscais, despesas e devoluções |
+| **📋 Gerentes** | Aprovação de despesas e notas, acompanhamento de equipe |
+| **👑 Administradores** | Gestão completa do sistema, relatórios e dashboards |
 
 ---
 
-## Identidade Visual
+## ✨ Funcionalidades
 
-| Elemento | Cor | Código |
-|----------|-----|--------|
-| **Primária** | Azul Corporativo | `#0A3D62` |
-| **Secundária** | Laranja Destaque | `#F39C12` |
-| **Sucesso** | Verde | `#27AE60` |
-| **Erro** | Vermelho | `#E74C3C` |
-| **Fundo** | Cinza Claro | `#F8F9FA` |
-| **Cards** | Branco | `#FFFFFF` |
-| **Texto Principal** | Cinza Escuro | `#2C3E50` |
-| **Texto Secundário** | Cinza Médio | `#7F8C8D` |
+| Módulo | Funcionalidades |
+|--------|-----------------|
+| **🔐 Autenticação** | Login com Firebase Auth, cadastro de usuários, recuperação de senha, controle de acesso por cargo |
+| **📄 Notas Fiscais** | Cadastro com foto (Base64), cálculo automático de frete por destino, filtros por data/placa/motorista/status, aprovação/rejeição com justificativa |
+| **💰 Despesas** | Registro com comprovante (Base64), tipos: Combustível, Manutenção, Alimentação, Outros, aprovação com justificativa, gráficos por período |
+| **🔄 Devoluções** | Registro de entregas com foto, dados do recebedor, status Entregue/Não Entregue |
+| **🚗 Placas** | CRUD completo de veículos, ativação/desativação, vínculo com motorista |
+| **💬 Chat** | Comunicação em tempo real entre motoristas e administração, envio de localização |
+| **📊 Relatórios** | Dashboards financeiros, despesas vs fretes, saldo por período, desempenho por motorista |
+| **🔔 Notificações** | Alertas push para aprovação/rejeição de notas e despesas |
+
+---
+
+## 🎨 Identidade Visual
+
+### Cores Oficiais
+
+| Elemento | Cor | Código HEX | Uso |
+|----------|-----|------------|-----|
+| **Primária** | Azul Corporativo | `#0A3D62` | Botões principais, cabeçalhos, links |
+| **Secundária** | Laranja Destaque | `#F39C12` | Badges de pendência, avisos |
+| **Sucesso** | Verde | `#27AE60` | Status aprovado, confirmações |
+| **Erro** | Vermelho | `#E74C3C` | Status rejeitado, exclusões |
+| **Fundo** | Cinza Claro | `#F8F9FA` | Background principal |
+| **Cards** | Branco | `#FFFFFF` | Cards, modais, formulários |
+| **Texto Principal** | Cinza Escuro | `#2C3E50` | Títulos, textos principais |
+| **Texto Secundário** | Cinza Médio | `#7F8C8D` | Descrições, datas, labels |
 
 ### Tipografia
-- **Fonte padrão:** System (iOS/Android)
-- **Títulos:** `fontWeight: 'bold'`, cor `#0A3D62`
-- **Corpo:** `fontSize: 14`, cor `#2C3E50`
 
-###  Ícones
-- Biblioteca: **Ionicons** (via `@expo/vector-icons`)
-- Estilo: Outline para inativos, Solid para ativos
+| Estilo | Tamanho | Peso | Uso |
+|--------|---------|------|-----|
+| H1 | 48px | Bold | Título principal |
+| H2 | 32px | Light | Subtítulos |
+| H3 | 26px | Regular | Seções |
+| H4 | 20px | Medium | Cabeçalhos de tela |
+| H5 | 18px | Bold | Títulos de card |
+| H6 | 16px | Bold | Informações destacadas |
+| Corpo | 14px | Regular | Textos gerais |
+| Pequeno | 11px | Regular | Descrições, datas, status |
 
----
+### Ícones
 
-## Equipe de Desenvolvimento
-
-| Nome | Papel |
-|------|-------
-| **Guilherme Neves** | Desenvolvimento de funcionalidades, marcações e estilização do projeto.
-| **Diego Vinicius** | Responsável pela integração do projeto com o banco de dados, pelo desenvolvimento da pesquisa de campo e tabém de funcionalidades do projeto.
-| **Gabriel Pinheiro** | Desenvolvimento do banco de dados, auxiliar da pesquisa de campo e desenvolvimento do artigo.
-
----
-
-##  Cronograma
-
-| | Data |
-|-------|------|
- **Início do Projeto** | Fevereiro de 2025 |
-
+- **Biblioteca:** `@expo/vector-icons` (Ionicons)
+- **Estilo:** Outline para itens inativos, Solid para ativos
+- **Tamanho padrão:** 24px
 
 ---
-## Protótipo navegável - https://www.figma.com/make/5rIs4jvYUe5VYV3RgTDckQ/Naveg%C3%A1vel-App-Prototype?fullscreen=1&t=ffcFEoU4K5PGriL5-1&preview-route=%2Fauth%2Flogin
 
-
+## 🏗️ Arquitetura do Projeto
