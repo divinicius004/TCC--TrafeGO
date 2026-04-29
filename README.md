@@ -8,7 +8,7 @@
 
 ## 📱 Sobre o Projeto
 
-O **Trafe GO** é um sistema mobile completo para gestão de transportadoras, desenvolvido em **React Native** com **Expo** e **Firebase**. O aplicativo foi projetado para otimizar o dia a dia de motoristas e equipes administrativas, oferecendo ferramentas para controle de notas fiscais, despesas, devoluções, chat interno e relatórios financeiros.
+O **Trafe GO** é um sistema multiplataforma completo para gestão de uma transportadora, desenvolvido em **React Native** com **Expo** e **Firebase**. O software  foi projetado para otimizar o dia a dia de motoristas e equipes administrativas, oferecendo ferramentas para controle de notas fiscais, despesas, devoluções, chat interno e relatórios financeiros.
 
 ### 🎯 Objetivo
 
