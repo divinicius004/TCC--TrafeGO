@@ -19,7 +19,7 @@ O **Trafe Go** é um sistema destinado a uma empresa de logística que apresenta
 
 ### 2. Objetivo -
 
-O foco central é o desenvolvimento de um software multiplataforma, voltado à gestão operacional de frotas para uma transportadora de eletrodomésticos, e seu controle de pequenos gastos. limita-se à integração de funcionalidades de controle de despesas, gerenciamento de notas fiscais e cálculo de frete automático, no qual é realizado por meio de validações por imagem, comunicação via chat em tempo real e controle de acesso de acordo com o cargo do funcionário
+O foco central é o desenvolvimento de um software multiplataforma, voltado à gestão operacional de frotas para uma transportadora de eletrodomésticos, e seu controle de pequenos gastos. O sistema se restringe à integração de funcionalidades de controle de despesas, gerenciamento de notas fiscais e cálculo de frete automático, no qual é realizado por meio de validações por imagem, comunicação via chat em tempo real e controle de acesso de acordo com o cargo do funcionário
 
 ## 3. Organização da Equipe - 
 
