@@ -34,12 +34,12 @@ O foco central é o desenvolvimento de um software multiplataforma, voltado à g
 
 | Marco | Data |
 |-------|------|
-| **Início do Projeto** | Fevereiro de 2025 |
-| **Prototipagem (Figma)** | Março de 2025 |
-| **Início do Desenvolvimento** | Março de 2025 |
-| **MVP (Mínimo Produto Viável)** | Abril de 2025 |
-| **Testes e Validação** | Maio de 2025 |
-| **Entrega Final** | Junho de 2025 |
+| **Início do Projeto** | Março de 2026 |
+| **Início do Desenvolvimento** | Abril de 2026 |
+| **MVP (Mínimo Produto Viável)** | Maio de 2026 |
+| **Testes e Validação** | Julho / Julho de 2026 |
+| **Resolução de bugs e Possíveis alterações** | Agosto / Outubro de 2026 |
+| **Entrega Final** | Novembro de 2026 |
 
 ---
 
