@@ -44,7 +44,7 @@ O foco central é o desenvolvimento de um software multiplataforma, voltado à g
 ---
 
 ## 5. Documentação do Projeto -
-
+- [Guia de estilos](./Guia%20de%20estilos.pdf)
 - [Requisitos do Sistema](./Requisitos%20do%20Sistema.pdf)
 - [ Pré-Projeto](./Pr%C3%A9-Projeto.pdf)
 - [Protótipo Navegavel](https://www.figma.com/make/5rIs4jvYUe5VYV3RgTDckQ/Naveg%C3%A1vel-App-Prototype?fullscreen=1)
