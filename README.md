@@ -7,14 +7,15 @@
 
 
 ---
-
-<img width="179" height="157" alt="image" src="https://github.com/user-attachments/assets/06126eb4-e11f-4c01-b9b1-b1955a0fa44a" />
+  <div align="center">
+  <img width="40%" alt="image" src="https://github.com/user-attachments/assets/06126eb4-e11f-4c01-b9b1-b1955a0fa44a" />
+</div>
 
 
 ### 1. IDENTIFICAÇÃO - 
 
 
-O **Trafe Go** em um sistema destinado a uma empresa de logística que apresenta limitações em relação ao processo administrativo utilizado atualmente. 
+O **Trafe Go** é um sistema destinado a uma empresa de logística que apresenta limitações em relação ao atual processo administrativo. 
 
 ### 2. Objetivo -
 
