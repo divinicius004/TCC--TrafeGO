@@ -1,4 +1,4 @@
-# 🚛 Trafe GO - Sistema de Gestão de Frotas
+# Trafe GO - Sistema de Gestão de Frotas
 
 ![React Native](https://img.shields.io/badge/React_Native-0.72.6-blue)
 ![Expo](https://img.shields.io/badge/Expo-49.0.15-black)
@@ -11,16 +11,16 @@
 <img width="179" height="157" alt="image" src="https://github.com/user-attachments/assets/06126eb4-e11f-4c01-b9b1-b1955a0fa44a" />
 
 
-### 1. IDENTIFICAÇÃO
+### 1. IDENTIFICAÇÃO - 
 
 
 O **Trafe Go** em um sistema destinado a uma empresa de logística que apresenta limitações em relação ao processo administrativo utilizado atualmente. 
 
-### Objetivo
+### 2. Objetivo -
 
 O foco central é o desenvolvimento de um software multiplataforma, voltado à gestão operacional de frotas para uma transportadora de eletrodomésticos, e seu controle de pequenos gastos. limita-se à integração de funcionalidades de controle de despesas, gerenciamento de notas fiscais e cálculo de frete automático, no qual é realizado por meio de validações por imagem, comunicação via chat em tempo real e controle de acesso de acordo com o cargo do funcionário
 
-## Organização da Equipe
+## 3. Organização da Equipe - 
 
 | Integrante | Responsabilidades |
 |------|-------------------|
@@ -30,7 +30,7 @@ O foco central é o desenvolvimento de um software multiplataforma, voltado à g
 
 ---
 
-###  Data de Criação do Projeto
+### 4.  Data de Criação do Projeto - 
 
 | Marco | Data |
 |-------|------|
@@ -43,8 +43,9 @@ O foco central é o desenvolvimento de um software multiplataforma, voltado à g
 
 ---
 
-## ✨ Funcionalidades Principais
+## 5. Documentação do Projeto -
 
-Protótipo Navegável - 
-(https://sl1nk.com/srkyxxk)
+- [Requisitos do Sistema](./Requisitos%20do%20Sistema.pdf)
+- [ Pré-Projeto](./Pr%C3%A9-Projeto.pdf)
+- [Protótipo Navegavel](https://www.figma.com/make/5rIs4jvYUe5VYV3RgTDckQ/Naveg%C3%A1vel-App-Prototype?fullscreen=1)
 
