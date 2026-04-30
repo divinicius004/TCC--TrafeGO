@@ -26,7 +26,7 @@ O foco central é o desenvolvimento de um software multiplataforma, voltado à g
 | Integrante | Responsabilidades |
 |------|-------------------|
 | **Guilherme Neves** | Desenvolvimento de funcionalidades, implementação da interface do usuário, estilização do projeto, integração com Firebase, criação das telas principais (Notas, Despesas, Devolução, Placas) |
-| **Diego Vinicius** | Integração do projeto com o banco de dados (Firestore), desenvolvimento da pesquisa de campo, criação de funcionalidades do sistema, documentação técnica |
+| **Diego Vinicius** | Integração do projeto com o banco de dados, desenvolvimento da pesquisa de campo, criação de funcionalidades do sistema, documentação técnica |
 | **Gabriel Pinheiro** | Desenvolvimento da estrutura do banco de dados, auxílio na pesquisa de campo, desenvolvimento do artigo acadêmico, documentação do projeto |
 
 ---
